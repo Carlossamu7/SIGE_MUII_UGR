@@ -1,0 +1,17 @@
+CART 
+
+50 samples
+ 7 predictor
+ 2 classes: 'Disinformation', 'Other' 
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+Summary of sample sizes: 50, 50, 50, 50, 50, 50, ... 
+Resampling results across tuning parameters:
+
+  cp    Accuracy  Kappa    
+  0.01  0.704991  0.2609067
+  0.05  0.698991  0.2623729
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was cp = 0.01
